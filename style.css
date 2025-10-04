@@ -1,0 +1,64 @@
+
+  /* Existing styles */
+.design { 
+    background-color: rgb(204, 204, 72);
+    color: rgb(184, 248, 7);
+    font-size: 22px;
+    width: 300px;
+    padding: 10px 20px;
+    margin: 15px auto;
+    border: 2px solid #888;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .design2 { 
+    background-color: rgb(20, 243, 150);
+    color: blue;
+    font-size: 25px;
+    width: 350px;
+    padding: 15px 25px;
+    margin: 20px auto;
+    border: 3px solid blue;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  /* 🟡 New CSS classes */
+  
+  /* Paragraph Styling */
+  .paragraph {
+    background-color: #f5f5dc; /* হালকা বেইজ রঙ */
+    color: #333;              /* ডার্ক গ্রে টেক্সট */
+    font-size: 18px;
+    padding: 15px 20px;
+    margin: 20px auto;
+    width: 70%;
+    line-height: 1.6;
+    border-left: 5px solid goldenrod;
+    border-radius: 8px;
+  }
+  
+  /* Flexible Div (Flexbox Layout) */
+  .flexible-div {
+    display: flex;
+    justify-content: space-around; /* বক্সগুলোর মাঝে ফাঁকা জায়গা */
+    align-items: center;           /* উল্লম্বভাবে মাঝখানে রাখবে */
+    background-color: #eef7ff;
+    padding: 25px;
+    margin: 25px auto;
+    width: 85%;
+    border: 5px solid #007acc;
+    border-radius: 10px;
+  }
+  
+  .flexible-div div {
+    background-color: #cce6ff;
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  
+  
